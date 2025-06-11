@@ -6,7 +6,8 @@ use std::{
     time::Duration,
 };
 
-use my_lib::ThreadPool;
+mod my;
+use my::ThreadPool;
 
 fn main() {
     let address = "127.0.0.1:6969";
